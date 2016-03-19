@@ -12,7 +12,7 @@
 		
 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="hibernate.connection.url">jdbc:mysql://${db_host}${db_port}/${db}</property>
+		<property name="hibernate.connection.url">jdbc:mysql://${db_host}:${db_port}/${db}</property>
 		<property name="hibernate.connection.username">${db_user}</property>
 		<property name="hibernate.connection.password">${db_password}</property>
 		
