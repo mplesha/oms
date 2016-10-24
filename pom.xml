@@ -242,6 +242,11 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
+		<repository>
+			<id>mirror</id>
+			<name>mirror</name>
+			<url>https://repo.maven.apache.org/maven2/</url>
+		</repository>
 		<!-- For developing against latest Spring milestones -->
 		<repository>
 			<id>org.springframework.maven.milestone</id>
