@@ -6,7 +6,6 @@
 
 
 <div id="edit">
-	<h1> Hi! </h1>
 	<fieldset>
 		<legend><spring:message code="lo.login" /></legend>
 		<c:if test="${not empty param.login_error}">
