@@ -3,7 +3,7 @@
     <mirror>
       <id>nexus</id>
       <mirrorOf>central</mirrorOf>
-      <url>http://mirror.ops.rhcloud.com/nexus/content/groups/public</url>
+      <url>https://repo.maven.apache.org/maven2</url>
     </mirror>
   </mirrors>
   <profiles>
